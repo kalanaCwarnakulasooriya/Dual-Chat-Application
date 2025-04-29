@@ -44,7 +44,7 @@ public class ClientController {
                         Image image = new Image(new ByteArrayInputStream(imageBytes));
                         imageView.setImage(image);
                     }else{
-                        textArea.appendText("Server: " +message + "\n");
+                        textArea.appendText("Client: " +message + "\n");
                     }
                 }
             } catch (IOException e) {

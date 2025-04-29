@@ -4,6 +4,7 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
@@ -16,8 +17,14 @@
          </font>
       </Label>
       <TextArea fx:id="textArea" layoutX="24.0" layoutY="105.0" prefHeight="417.0" prefWidth="467.0" style="-fx-border-color: black;" AnchorPane.leftAnchor="24.0" AnchorPane.topAnchor="94.0" />
-      <TextField fx:id="textField" layoutX="24.0" layoutY="555.0" prefHeight="28.0" prefWidth="381.0" promptText="Message. . . . ." style="-fx-border-color: black; -fx-border-radius: 7;" AnchorPane.topAnchor="546.0" />
+      <TextField fx:id="textField" layoutX="24.0" layoutY="555.0" prefHeight="28.0" prefWidth="326.0" promptText="Message. . . . ." style="-fx-border-color: black; -fx-border-radius: 7;" AnchorPane.rightAnchor="165.5999891728937" AnchorPane.topAnchor="546.0" />
       <Button layoutX="427.0" layoutY="553.0" mnemonicParsing="false" onAction="#sendOnAction" prefHeight="27.0" prefWidth="63.0" style="-fx-background-color: #009432; -fx-background-radius: 5;" text="Send" textFill="WHITE" AnchorPane.rightAnchor="25.55651963462895" AnchorPane.topAnchor="546.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="142.0" layoutX="334.0" layoutY="110.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="331.0" AnchorPane.topAnchor="110.0" />
+      <Button layoutX="357.0" layoutY="546.0" mnemonicParsing="false" onAction="#uploadOnAction" prefHeight="27.0" prefWidth="63.0" style="-fx-background-color: #009432; -fx-background-radius: 5;" text="Upload" textFill="WHITE" AnchorPane.leftAnchor="357.0">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
