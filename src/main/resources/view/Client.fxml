@@ -4,25 +4,23 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
 
 <AnchorPane prefHeight="611.0" prefWidth="516.0" style="-fx-background-color: pinklight;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dualchatapplication.controller.ClientController">
    <children>
-      <Label layoutX="209.0" layoutY="21.0" text="Client" textFill="#009432">
+      <Label layoutX="209.0" layoutY="21.0" text="Client" textFill="#009432" AnchorPane.bottomAnchor="536.704345361605" AnchorPane.leftAnchor="209.0" AnchorPane.rightAnchor="208.79998980978226" AnchorPane.topAnchor="21.0">
          <font>
             <Font name="System Bold" size="36.0" />
          </font>
       </Label>
-      <TextArea fx:id="textArea" layoutX="24.0" layoutY="94.0" prefHeight="417.0" prefWidth="467.0" style="-fx-border-color: black;" />
-      <TextField fx:id="textField" layoutX="24.0" layoutY="546.0" prefHeight="28.0" prefWidth="381.0" promptText="Message. . . . ." style="-fx-border-color: black; -fx-border-radius: 7;" />
-      <Button fx:id="btnSend" layoutX="427.0" layoutY="546.0" mnemonicParsing="false" onAction="#sendOnAction" prefHeight="27.0" prefWidth="63.0" style="-fx-background-color: #009432; -fx-background-radius: 5;" text="Send" textFill="WHITE">
+      <TextArea fx:id="textArea" layoutX="24.0" layoutY="94.0" prefHeight="417.0" prefWidth="467.0" style="-fx-border-color: black;" AnchorPane.leftAnchor="24.0" AnchorPane.topAnchor="94.0" />
+      <TextField fx:id="textField" layoutX="24.0" layoutY="546.0" prefHeight="28.0" prefWidth="381.0" promptText="Message. . . . ." style="-fx-border-color: black; -fx-border-radius: 7;" AnchorPane.bottomAnchor="36.66954616611464" AnchorPane.topAnchor="546.0" />
+      <Button layoutX="427.0" layoutY="546.0" mnemonicParsing="false" onAction="#sendOnAction" prefHeight="27.0" prefWidth="63.0" style="-fx-background-color: #009432; -fx-background-radius: 5;" text="Send" textFill="WHITE" AnchorPane.rightAnchor="25.55651963462895" AnchorPane.topAnchor="546.0">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
       </Button>
-      <ImageView fx:id="imageView" fitHeight="150.0" fitWidth="143.0" layoutX="330.0" layoutY="115.0" pickOnBounds="true" preserveRatio="true" />
    </children>
 </AnchorPane>
